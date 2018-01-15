@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="603.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.davin.control.HomeControl">
+   <children>
+      <TextField fx:id="field_num" alignment="CENTER_RIGHT" editable="false" layoutX="14.0" layoutY="26.0" prefHeight="54.0" prefWidth="572.0" promptText="0">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </TextField>
+      <Button layoutX="14.0" layoutY="263.0" mnemonicParsing="false" onAction="#btn_1" prefHeight="54.0" prefWidth="58.0" text="1">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="81.0" layoutY="263.0" mnemonicParsing="false" onAction="#btn_2" prefHeight="54.0" prefWidth="58.0" text="2">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="153.0" layoutY="263.0" mnemonicParsing="false" onAction="#btn_3" prefHeight="54.0" prefWidth="58.0" text="3">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="200.0" mnemonicParsing="false" onAction="#btn_4" prefHeight="54.0" prefWidth="58.0" text="4">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="81.0" layoutY="200.0" mnemonicParsing="false" onAction="#btn_5" prefHeight="54.0" prefWidth="58.0" text="5">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="153.0" layoutY="200.0" mnemonicParsing="false" onAction="#btn_6" prefHeight="54.0" prefWidth="58.0" text="6">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="134.0" mnemonicParsing="false" onAction="#btn_7" prefHeight="54.0" prefWidth="58.0" text="7">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="81.0" layoutY="134.0" mnemonicParsing="false" onAction="#btn_8" prefHeight="54.0" prefWidth="58.0" text="8">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="153.0" layoutY="134.0" mnemonicParsing="false" onAction="#btn_9" prefHeight="54.0" prefWidth="58.0" text="9">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="330.0" mnemonicParsing="false" onAction="#btn_0" prefHeight="56.0" prefWidth="127.0" text="0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="271.0" layoutY="134.0" mnemonicParsing="false" onAction="#btn_plus" prefHeight="54.0" prefWidth="58.0" text="+">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="271.0" layoutY="200.0" mnemonicParsing="false" onAction="#btn_kali" prefHeight="54.0" prefWidth="58.0" text="X">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="271.0" layoutY="263.0" mnemonicParsing="false" onAction="#btn_bagi" prefHeight="54.0" prefWidth="58.0" text=":">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="338.0" layoutY="134.0" mnemonicParsing="false" onAction="#btn_min" prefHeight="54.0" prefWidth="58.0" text="-">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="338.0" layoutY="200.0" mnemonicParsing="false" onAction="#btn_sd" prefHeight="120.0" prefWidth="58.0" text="=">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="410.0" layoutY="134.0" mnemonicParsing="false" onAction="#btn_bs" prefHeight="30.0" prefWidth="98.0" text="Back Space">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="410.0" layoutY="172.0" mnemonicParsing="false" onAction="#btn_clear" prefHeight="54.0" prefWidth="98.0" text="C">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="153.0" layoutY="322.0" text="Saat ini,program ini belum dapat memproses lebih dari 10X perhitungan" textFill="#f20000" />
+      <Button layoutX="410.0" layoutY="235.0" mnemonicParsing="false" onAction="#btn_neg" prefHeight="83.0" prefWidth="98.0" text="+ / -">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="513.0" layoutY="134.0" mnemonicParsing="false" onAction="#btn_kurungbuka" prefHeight="56.0" prefWidth="58.0" text="(">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="513.0" layoutY="200.0" mnemonicParsing="false" onAction="#btn_kurungtutup" prefHeight="54.0" prefWidth="58.0" text=")">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Label layoutX="153.0" layoutY="339.0" text="Saat ini,program ini belum dapat melakukan perhitungan beruntun" textFill="#f20000" />
+      <Label layoutX="152.0" layoutY="358.0" text="Tombol +/- masih belum dapat berfungsi dengan baik" textFill="#f20000" />
+   </children>
+</AnchorPane>
